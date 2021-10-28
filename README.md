@@ -1,2 +1,2 @@
-# Music-lesson-system-
+# Music-lesson-system
 Application that schedules music lessons with music instructors. Designed and built to avoid redundancies and conflicts.  Every time a lesson is booked the name of the student is entered into the database table for that instructor along with the time of the lesson. The user will be required to log into this website so only students enrolled in the music studio will be able to schedule classes. 
