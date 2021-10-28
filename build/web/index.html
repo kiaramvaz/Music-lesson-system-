@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+Kiara Vaz, April 22nd 2019. This application schedules music lessons. It allows
+the user to pick the type of instrument they'd like to choose and then the time 
+and day. If the time slot is already booked it lets the user know and asks them 
+to pick another time slot.
+-->
+<html>
+    <head>
+        <title>Welcome</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="indexcss.css">
+    </head>
+    <body>
+        
+        <!-- Navigation Bar -> Takes user to different parts of the application
+        -->
+        <ul class="navBar">
+            <li> <form method="GET" action="index.html" >
+                    <button id="navBarButton" type="submit">Home</button>
+                </form> </li>
+            <li> <form method="GET" action="aboutPage.html" >
+                    <button id="navBarButton" type="submit">About</button>
+                </form> </li>
+
+        </ul>
+        <h1 class="center"> Music Lesson Scheduling System! </h1>
+        <!-- Login into the application
+        -->
+        
+        <h3 class="center"> Login below or sign up if you haven't already! </h3>
+        
+        <form class= "center" action="pickTeacher" method="POST">
+            Username: <input class= "center" type="text" name="myUsername" /><br/>
+            Password: <input class= "center" type="password" name="myPassword" /><br/>
+            <input class="button1" class= "center" type="submit" value="login"/>
+        </form>
+
+        <br>
+        <!-- Sign up if the user doesn't have a login!
+        -->
+
+        <form class= "center" action="signup" method="POST">
+            Username: <input class= "center" type="text" name="myUsername" /><br/>
+            Password: <input class= "center" type="password" name="myPassword" /><br/>
+            <input class="button1" class="center" type="submit" value="signup"/>
+        </form>
+
+
+
+    </body>
+</html>

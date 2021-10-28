@@ -1,0 +1,217 @@
+
+
+/*
+//Kiara Vaz, April 22nd 2019. This is the css for all my pages
+*/
+/* 
+    Created on : Apr 5, 2019, 2:31:32 PM
+    Author     : KiaraVaz
+*/
+
+h1{
+    font-size: 45px;  
+    color: white;
+}
+
+h4{
+    font-size: 20px;  
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div {
+    margin: 35px;
+    padding: 20px;
+    
+
+}
+
+#aboutDiv{
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body {
+    background-image: url("music5.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    font-size: 20px;  
+    color: white;
+    
+}
+
+form{
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.20s;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+input[type=sumbit]{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+input[type=sumbit]:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+.button1 {
+    padding: 10px 24px;  
+    border-color: white;
+    color: black;
+    font-size: 15px;
+}
+
+.button1:hover {
+    background: black;
+    color: white;
+}
+
+
+.button2 {
+    padding: 10px 24px;  
+    border-radius: 8px;
+    background-color: white;
+    border: 2px solid #555555;
+    border-color: white;
+    color: black;
+    font-size: 15px;
+}
+
+
+.button2:hover {
+    background: black;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.classbutton{
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 8px;
+
+
+}
+
+.text1{
+    color:white;
+}
+
+
+#navBarButton{
+    background-color: white; 
+    border: none;
+    color: black;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;  
+}
+
+
+
+/* Change the link color to #111 (black) on hover */
+#navBarButton :hover {
+    background-color: black;
+    color: white;
+}
+
